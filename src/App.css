@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: #d6cccc;
+}
+.container{
+  background: rgba(220, 0, 0, 0.817);
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.content{
+  display: flex;
+  text-align: center;
+}
+.name{
+  font-size: 19px;
+  color: #ebe9e9;
+  margin-top: 19px;
+  margin-left: 7px;
+}
+.logo{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
