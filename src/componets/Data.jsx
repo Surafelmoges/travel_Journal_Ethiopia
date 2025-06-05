@@ -15,7 +15,7 @@ const data = [
   {
     id: 2,
     img: {
-      src: "https://cdn.pixabay.com/photo/2016/11/14/04/30/ethiopia-1822593_1280.jpg",
+      src: 'https://i.pinimg.com/736x/5c/ab/5c/5cab5c45d25525d1cceb1c27c3308102.jpg',
       alt: "Simien Mountains",
     },
     icon: "https://cdn-icons-png.flaticon.com/512/684/684908.png",
@@ -28,7 +28,7 @@ const data = [
   {
     id: 3,
     img: {
-      src: "https://cdn.pixabay.com/photo/2021/01/27/11/36/axum-5953657_1280.jpg",
+      src: "https://i.pinimg.com/736x/83/3a/ba/833aba3c380ab10bc6bc2910889b84d2.jpg",
       alt: "Axum Obelisks",
     },
     icon: "https://cdn-icons-png.flaticon.com/512/854/854878.png",
@@ -41,7 +41,7 @@ const data = [
   {
     id: 4,
     img: {
-      src: "https://cdn.pixabay.com/photo/2021/12/19/17/51/ethiopia-6881144_1280.jpg",
+      src: "https://i.pinimg.com/736x/a5/1f/24/a51f245392b931949c6e6b5ab5d86720.jpg",
       alt: "Blue Nile Falls",
     },
     icon: "https://cdn-icons-png.flaticon.com/512/684/684853.png",
@@ -54,7 +54,7 @@ const data = [
   {
     id: 5,
     img: {
-      src: "https://cdn.pixabay.com/photo/2023/03/01/18/34/ethiopia-7823734_1280.jpg",
+      src: 'https://i.pinimg.com/736x/71/47/26/714726f3c338506fea1bef4f5f3f86ac.jpg',
       alt: "Gondar Castles",
     },
     icon: "https://cdn-icons-png.flaticon.com/512/3595/3595455.png",
@@ -67,7 +67,7 @@ const data = [
   {
     id: 6,
     img: {
-      src: "https://cdn.pixabay.com/photo/2020/02/28/07/16/ethiopia-4885972_1280.jpg",
+      src: "https://i.pinimg.com/736x/89/38/27/893827fbb239b1fa38da32426ad9c279.jpg",
       alt: "Danakil Depression",
     },
     icon: "https://cdn-icons-png.flaticon.com/512/1483/1483336.png",
@@ -77,19 +77,7 @@ const data = [
     detail:
       "The Danakil Depression is one of the hottest and most geologically active places on Earth, featuring colorful acid pools and salt flats."
   },
-  {
-    id: 7,
-    img: {
-      src: "https://cdn.pixabay.com/photo/2022/11/07/11/43/addis-ababa-7575917_1280.jpg",
-      alt: "Addis Ababa",
-    },
-    icon: "https://cdn-icons-png.flaticon.com/512/684/684908.png",
-    country: "Ethiopia",
-    mapLink: "https://www.google.com/maps/place/Addis+Ababa",
-    date: "11-06-2025",
-    detail:
-      "Addis Ababa, the capital city of Ethiopia, is home to the African Union, museums, and vibrant culture, blending modern life with rich history."
-  }
+  
 ];
 
 export default data;

@@ -1,26 +1,26 @@
 import fasil from '../images/fasil.jpg';
 import locationIcon from '../images/locationIcon.jpg';
 
-export default function Entry() {
+export default function Entry(props) {
   return (
     <div className="cart">
       <div className="box">
         <img 
-          src={fasil} 
-          alt="Fasil Castle" 
+          src={props.imageUrl.src} 
+          alt={props.imageUrl.alt} 
           className="imgContent" 
         />
       </div>
       <div className="entry-content">
         <div className="location-header">
           <img 
-            src={locationIcon}
+            src={props.title}
             alt="location icon"
             className="locationIcon"
           />
-          <h2 className="countryTitle">Fasil Castle</h2>
+          <h2 className="countryTitle">{props.country}</h2>
           <a 
-            href="https://www.google.com/maps/place/Lalibela" 
+            href={props.mapLink}
             className="mapLink"
             target="_blank"
             rel="noopener noreferrer"
@@ -28,9 +28,10 @@ export default function Entry() {
             Google Map
           </a>
         </div>
-        <p className='date'>Date: 05-06-2025</p>
+        <p className='date'>{props.date}</p>
         <p className='detail'>
-          Lalībela, religious and pilgrimage centre in north-central Ethiopia, is famous for its 11 medieval rock-hewn churches built during the reign of King Lalibela.
+          {props.detail}
+          
         </p>
       </div>
     </div>
